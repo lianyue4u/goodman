@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import javax.sound.midi.Soundbank;
+
 @SpringBootApplication
 public class DemoApplication {
 
@@ -14,5 +16,10 @@ public class DemoApplication {
     public  void  sayGoodBye(){
         System.out.println("GoodBye");
     }
+
+    public void hahhah(){
+        new Thread().start();
+    }
+
 
 }
