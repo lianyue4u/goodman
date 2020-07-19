@@ -21,5 +21,9 @@ public class DemoApplication {
         new Thread().start();
     }
 
+    public void hehheh(){
+        new Thread().start();
+    }
+
 
 }
