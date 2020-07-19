@@ -15,7 +15,4 @@ public class DemoApplication {
         System.out.println("GoodBye");
     }
 
-    public void run(){}
-
-
 }
